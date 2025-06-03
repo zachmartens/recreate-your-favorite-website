@@ -58,49 +58,25 @@ main {
   font-size: clamp(1.5rem, 5vw, 3.5rem);
   font-weight: bold;
 }
+@media (max-width: 576px) {
+    .sub-text {
+        font-size: 3.25rem;
+    }
+}
 
 .pt-serif-regular {
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-style: normal;
 }
-/* .pt-serif-bold {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-.pt-serif-regular-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-.pt-serif-bold-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: italic;
-} */
+
 .proxima-nova-regular {
     font-family: "proxima-nova", sans-serif;
     font-weight: 400;
     font-size: 17px;
     font-style: normal;
 }
-/* .proxima-nova-regular-italic {
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    font-style: italic;
-}
-.proxima-nova-bold {
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.proxima-nova-bold-italic {
-    font-family: "proxima-nova", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-} */
+
 
 .lust-display-pop {
     font-family: "lust-display", serif;
@@ -149,9 +125,6 @@ footer {
     object-fit: cover;
     display: block;
 }
-/* .logo-section img {
-  max-height: 450px;
-} */
 
 .split-section {
     font-size: clamp(1rem, 1.5vw, 1.25rem);

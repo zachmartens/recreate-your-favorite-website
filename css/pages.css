@@ -29,7 +29,7 @@
 /* Good Bones creative team background */
 .good-bones-creative {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     background: url('../assets/OKP_Web_Assets/GoodBones/good-bones-fin.png') no-repeat center center/cover;
     z-index: 0;
     overflow: hidden;
@@ -37,7 +37,7 @@
 /* From on High creative team background */
 .from-on-high-creative {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     background: url('../assets/OKP_Web_Assets/FoH/MarketShots/Tiff1.png') no-repeat center center/cover;
     z-index: 0;
     overflow: hidden;
@@ -98,7 +98,6 @@
   z-index: 0;
 }
 
-/* check smaller screen to see if this is necessary */
 @media (max-height: 500px) {
   .video-hero {
     min-height: 80vh;
