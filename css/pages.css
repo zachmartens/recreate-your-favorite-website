@@ -43,6 +43,19 @@
     overflow: hidden;
 }
 
+/* Test Kitchen Devising Team */
+.hero-devising-team {
+  height: 100vh;
+  background: url('../assets/OKP_Web_Assets/TK2/Amanda+Tipton+-+12.jpg') no-repeat center center / cover;
+}
+
+@media (max-width: 768px) {
+  .hero-devising-team {
+    height: auto;
+    padding: 4rem 1rem;
+    background-position: top center;
+  }
+}
 
 
 
@@ -83,6 +96,13 @@
   height: 100%;
   object-fit: cover;
   z-index: 0;
+}
+
+/* check smaller screen to see if this is necessary */
+@media (max-height: 500px) {
+  .video-hero {
+    min-height: 80vh;
+  }
 }
 
 .hero-content {
@@ -126,11 +146,55 @@
     object-fit: cover;
     object-position: center;
     border-radius: 8px;
-  /* height: auto; */
-  /* max-height: 400px; */
+}
+
+.cast-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
 }
 
 .card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Test Kithen - Table Styling */
+/* Transparent background with glassy effect */
+.table-custom {
+    background-color: rgba(11, 11, 11, 0.4); /*semi-transparent dark*/
+    backdrop-filter: blur(6px); /* subtle glassmorphism */
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Header styling */
+.table-custom thead th {
+    color: #ffcc00; /* yellow accent */
+    border-bottom: 2px solid #ffcc00;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Cell styling */
+.table-custom td,
+.table-custom th {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0.75rem;
+    font-family: "proxima-nova", sans-serif;
+    vertical-align: middle;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hover effect */
+.table-custom tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+/* Active status highlight */
+.table-custom .table-active {
+    color: #ffcc00;
+    font-weight: bold;
 }
