@@ -32,7 +32,6 @@
     min-height: 100vh;
     background: url('../assets/OKP_Web_Assets/GoodBones/good-bones-fin.png') no-repeat center center/cover;
     z-index: 0;
-    overflow: hidden;
 }
 /* From on High creative team background */
 .from-on-high-creative {
@@ -40,7 +39,6 @@
     min-height: 100vh;
     background: url('../assets/OKP_Web_Assets/FoH/MarketShots/Tiff1.png') no-repeat center center/cover;
     z-index: 0;
-    overflow: hidden;
 }
 
 /* Test Kitchen Devising Team */
